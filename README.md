@@ -48,7 +48,7 @@
 
 ## 怎么装（推荐：插件市场 / npm）
 
-本插件已发布到 npm（包名 `dsh-lanxi-qq`）并收录进 DSH 插件市场精选列表，两种装法二选一：
+本插件的 npm 包名是 `dsh-lanxi-qq`，装法二选一：
 
 1. **市场一键装**：DSH 设置 → 插件市场，搜 `dsh-lanxi-qq`，点安装。
 2. **命令行装**（以 `desktop` profile 为例）：
@@ -90,7 +90,7 @@ dsh plugin --profile desktop add dsh-lanxi-qq
 
 ## 市场收录
 
-本插件已发布到 npm 并收录进精选列表 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)（注册表由该仓库 CI 每日生成，站点 awesome-dsh-plugin.com 与 DSH 内置市场同源）。列表条目不含版本号，发新版本只改 npm 包即可，市场通常一天内同步。
+发布后会把本插件提交到精选列表 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)（注册表由该仓库 CI 每日生成，站点 awesome-dsh-plugin.com 与 DSH 内置市场同源）。列表条目不含版本号，发新版本只改 npm 包即可，市场通常一天内同步。
 
 ## 已知的坑
 
