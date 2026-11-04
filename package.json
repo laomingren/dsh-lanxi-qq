@@ -42,6 +42,14 @@
   ],
   "license": "BSD-3-Clause",
   "author": "蓝汐 (Lanxi)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laomingren/dsh-lanxi-qq.git"
+  },
+  "homepage": "https://github.com/laomingren/dsh-lanxi-qq",
+  "bugs": {
+    "url": "https://github.com/laomingren/dsh-lanxi-qq/issues"
+  },
   "contributors": [
     "dsh-onebot-qq 原作者与贡献者（https://github.com/mario841859784/dsh-onebot）"
   ],
