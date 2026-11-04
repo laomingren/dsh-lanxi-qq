@@ -1,0 +1,7 @@
+node_modules/
+*.tgz
+*.bak-*
+PUBLISHING.md
+*.log
+.DS_Store
+Thumbs.db
