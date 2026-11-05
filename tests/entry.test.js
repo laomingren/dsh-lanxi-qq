@@ -66,8 +66,8 @@ describe('exports 子路径', () => {
         expect(pkg.version).toMatch(/^\d+\.\d+\.\d+$/);
         expect(pkg.license).toBe('BSD-3-Clause');
         expect(pkg.main).toBe('lib/index.js');
-        // P0-1：repository 不得再出现本机 file:// 占位
-        expect(pkg.repository).toBeUndefined();
+        // P0-1：repository 不得再出现本机 file:// 占位（真实 GitHub 地址允许）
+        expect(String(pkg.repository?.url ?? '')).not.toMatch(/^file:/);
         // P1-4：contributes 与 lib/tools.js 注册表对齐（10 个）
         expect(pkg.dshx.contributes.tools).toEqual([
             'qq_send_image',

@@ -1,6 +1,6 @@
 {
   "name": "dsh-lanxi-qq",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "给 dsh（DeepSeek Harness）加 QQ 机器人通道：OneBot 11 协议，兼容 NapCat。在 dsh-onebot-qq 0.9.4 基础上分叉，加了消息合并、分条发送、群聊工具闸、静默作息、试运行 dryRun、每日收发统计与可视化设置页。",
   "keywords": [
     "dsh",
